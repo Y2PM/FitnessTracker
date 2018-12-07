@@ -11,8 +11,15 @@
 
 	<!-- https://docs.spring.io/spring/docs/3.2.x/spring-framework-reference/html/mvc.html -->
 	<mvc:annotation-driven />
-	<context:component-scan base-package="com.project.controller"/>
+	<context:component-scan
+		base-package="com.project.controller" />
 
 	<!-- bean definitions here -->
+
+	<!-- <bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver"> 
+		<property name="prefix" value="/WEB-INF/jsp/" /> <property name="suffix" 
+		value=".jsp" /> </bean> -->
+
+
 
 </beans>
