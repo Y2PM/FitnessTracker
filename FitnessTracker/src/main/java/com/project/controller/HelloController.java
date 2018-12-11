@@ -12,7 +12,7 @@ public class HelloController {
 		
 		model.addAttribute("greeting", "Hello World");
 		
-		return "Hello";
+		return "hello";//This "hello" means it will tie to the hello.jsp page
 	}
 	
 }
