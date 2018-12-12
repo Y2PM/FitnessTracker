@@ -10,6 +10,11 @@
 </head>
 <body>
 	<h1>Add minutes exercised</h1>
+	
+	Language : <a href="?language=en">English</a> | <a href="?language=es">Spanish</a>
+	
+	
+	
 	<form:form modelAttribute="exercise">
 		<tr>
 			<td><spring:message code="goal.text" /></td>
