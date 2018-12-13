@@ -11,7 +11,7 @@
 </head>
 <body>
 
-	<form:form commandName="goal">
+	<form:form modelAttribute="goal"> <!-- "commandName DEPRECATED: Use "modelAttribute" instead." -->
 
 		<table>
 			<tr>
@@ -25,6 +25,8 @@
 
 
 	</form:form>
+
+	<h1>Our goal for the day is: ${goal.minutes}</h1>
 
 </body>
 </html>
